@@ -1,0 +1,2 @@
+# Student-Depression-Prediction-RandomForest
+ This project analyzes factors influencing student depression using a dataset of 27,901 records. A Random Forest Classifier was developed to predict depression risk, achieving 82% accuracy and an AUC of 0.89. Key insights include the impact of academic pressure, study satisfaction, and financial stress on mental health. The repository includes data preprocessing, exploratory analysis, modeling, and evaluation.
