@@ -27,3 +27,62 @@ O modelo de **Random Forest** foi escolhido para a tarefa de classificação, al
 1. Clone o repositório:
    ```bash
    git clone https://github.com/Mr-reinert/Student-Depression-Prediction-RandomForest.git
+
+2. Navegue até o diretório do projeto:
+
+   ```bash
+   cd Student-Depression-Prediction-RandomForest
+3. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
+
+4. Execute os notebooks na pasta notebooks/:
+
+- 01_Exploratory_Analysis.ipynb: Análise exploratória dos dados.
+- 02_Data_Cleansing.ipynb: Limpeza e pré-processamento dos dados.
+- 03_Modeling.ipynb: Treinamento e avaliação do modelo.
+
+---
+
+## 📂 Estrutura do Projeto
+
+![image](https://github.com/user-attachments/assets/4b91e241-dd31-48f8-9f90-1094b0969349)
+
+
+--- 
+
+## 📊 Resultados
+- Acurácia do Modelo: 84%
+
+- Features Mais Importantes:
+
+   1. Pressão acadêmica
+   2. CGPA
+   3. Satisfação com os estudos
+   4. Estresse financeiro
+
+- Matriz de Confusão:
+
+![image](https://github.com/user-attachments/assets/d26b8ecf-0a5b-4260-9ee3-f426017b4f8d)
+
+ 
+Curva ROC:
+
+![image](https://github.com/user-attachments/assets/6171b4d0-484e-45d9-bd51-a8adeff58e4e)
+
+
+## 🛠 Tecnologias e Ferramentas
+- Linguagem: Python
+
+## Bibliotecas:
+
+- Pandas, NumPy, Matplotlib, Seaborn
+- Scikit-learn, XGBoost
+- Imbalanced-learn (SMOTE)
+
+## Ferramentas:
+
+- VS Code
+- Git e GitHub
+
+
